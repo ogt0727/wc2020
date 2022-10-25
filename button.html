@@ -1,0 +1,19 @@
+<html>
+<head>
+<script>
+function showdate(){
+   alert(new Date())
+}
+function clickme(){
+   setTimeout(showdate, 1000)
+}
+function clickyou(){
+   alert("종료")
+}
+</script>
+</head>
+<body>
+<button onclick="clickme()">시작</button><br>
+<button onclick="clickyou()">종료</button>
+</body>
+</html>
